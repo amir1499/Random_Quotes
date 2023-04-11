@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+*{
+  margin: 0;
+  padding: 0;
+  list-style: armenian;
+  vertical-align: baseline;
+}
+
+div{
+  position: relative;
+  z-index: 2;
+}
+body{
+  background-color: coral;
+  color: rgb(55, 150, 11);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.footer{
+ width: 450px;
+ text-align: center; 
+ display: block;
+ margin: 15px auto 30px auto;
+ font-size: 1.5em;
+ color: rgb(39, 4, 71);
+ 
+}
+.footer a{
+  font-weight: 500;
+  text-decoration: solid;
+  color: rgb(138, 9, 9);
+}
+#quote-box {
+  width: 500px;
+  padding: 40px 50px;
+  background-color: rgb(223, 169, 21);
+  border-radius: 5px;
+  position: relative;
+  display: table;
+  background-color: rgb(136, 211, 186);
+}
+#quote-box .quote-text{
+  text-align: center;
+  width: 450px;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+#quote-box .quote-text i{
+  font-size: 1em;
+  margin-right: 0.4em;
+}
+#quote-box .quote-author{
+  width: 450px;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 1rem;
+  text-align: right;
+}
+#quote-box .buttons{
+  width: 450px;
+  margin: auto;
+  display: block;
+}
+
+#quote-box .buttons .button{
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: darkorange;
+  background-color: rgb(24, 9, 24);
+  outline: none;
+  font-size: 0.85em;
+  padding: 8px 18px 6px 18px;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+#quote-box .buttons .button:hover {
+  opacity: 0.9;
+}
+
+#quote-box .buttons .button#tweet-quote,
+#quote-box .buttons .button#tumblr-quote {
+  float: left;
+  padding: 0px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 5px;
+  height: 30px;
+  width: 40px;
+}
+
+#quote-box .buttons .button#new-quote {
+  float: right;
+}
+
+/*
+#text {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+  color: gray;
+}
+/*
+button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}*/
